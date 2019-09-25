@@ -22,8 +22,6 @@ def find_the_cheese(snacks)
   cheese_types.map do |cheese|
     if snacks.include? (cheese)
       return cheese
-    else
-      p nil 
     end
   end
 end
