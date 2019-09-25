@@ -1,7 +1,7 @@
 require "pry"
 
 def roll_call_dwarves (dwarves)
-  puts dwarves.each_with_index
+  dwarves.each_with_index do 
 end
 
 def summon_captain_planet# code an argument here
